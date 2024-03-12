@@ -1,19 +1,23 @@
 body {
 
-    background: #000000;
- 
-      color: #00000;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: medium;
+    font-style: italic;
+    font-weight: bold;
+      color: black;
  
   }
  
-  h1 {
- 
-    color: white
- 
- }
- 
- p {
- 
-    color: white
- 
- }
+p {
+  color: white;
+}
+
+a{
+  color: gray;
+}
