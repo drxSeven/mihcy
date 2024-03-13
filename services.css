@@ -7,9 +7,9 @@ body {
     background: black;
     text-align: left;
     font-family: Helvetica, sans-serif;
-    font-size: larger;
-    font-style: italic;
-    font-weight: bold;
+    font-size: large;
+    font-style: normal;
+    font-weight: normal;
       color: black;
  
   }
@@ -19,5 +19,18 @@ p {
 }
 
 a{
-  color: #303030
+  color: #303030;
+}
+
+.social-icon {
+    color: white;
+    transition: color 0.2s;
+}
+
+.social-icon:hover {
+    color: #303030;
+}
+
+.back {
+    color: white;
 }

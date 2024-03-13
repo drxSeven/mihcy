@@ -1,0 +1,39 @@
+body {
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: larger;
+    font-style: italic;
+    font-weight: bold;
+      color: white;
+ 
+  }
+ 
+p {
+  color: white;
+}
+
+.links {
+    color: white;
+}
+
+.social-icon {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.2s;
+    margin: 0 10px;
+}
+
+.social-icon:hover {
+    color: #303030;
+}
+
+.back {
+    color: white;
+}
