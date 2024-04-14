@@ -5,10 +5,10 @@ body {
     align-items: center;
     justify-content: center;
     background: black;
-    text-align: left;
+    text-align: center;
     font-family: Helvetica, sans-serif;
     font-size: xx-large;
-    font-style: italic;
+    font-style: normal;
     font-weight: bold;
       color: black;
  
@@ -16,8 +16,10 @@ body {
  
 p {
   color: white;
+  text-align: center;
 }
 
 a{
+  font-style: italic;
   color: #707070
 }
