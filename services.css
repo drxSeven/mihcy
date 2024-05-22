@@ -4,8 +4,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgb(139, 139, 139);
-    text-align: left;
+    background: white;
+    text-align: center;
     font-family: Helvetica, sans-serif;
     font-size: x-large;
     font-style: normal;
@@ -15,7 +15,7 @@ body {
   }
  
 p {
-  color: white;
+  color: black;
 }
 
 a{
@@ -23,14 +23,14 @@ a{
 }
 
 .social-icon {
-    color: white;
+    color: black;
     transition: color 0.2s;
 }
 
 .social-icon:hover {
-    color: #cccccc;
+    color: #303030;
 }
 
 .back {
-    color: white;
+    color: black;
 }
