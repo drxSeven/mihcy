@@ -24,7 +24,15 @@ a{
   color: black
 }
 
-.social-icon {
+.social-icon1 {
+  font-size: 40px;
+  color: black;
+  text-decoration: none;
+  transition: color 0.2s;
+  margin: 0 10px;
+}
+
+.social-icon2 {
   font-size: 25px;
   color: black;
   text-decoration: none;
@@ -32,6 +40,10 @@ a{
   margin: 0 10px;
 }
 
-.social-icon:hover {
+.social-icon1:hover {
+  color: #303030;
+}
+
+.social-icon2:hover {
   color: #303030;
 }
