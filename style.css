@@ -24,26 +24,14 @@ a{
   color: black
 }
 
-.social-icon1 {
-  font-size: 40px;
+.social-icon {
+  font-size: 35px;
   color: black;
   text-decoration: none;
   transition: color 0.2s;
   margin: 0 10px;
 }
 
-.social-icon2 {
-  font-size: 25px;
-  color: black;
-  text-decoration: none;
-  transition: color 0.2s;
-  margin: 0 10px;
-}
-
-.social-icon1:hover {
-  color: #303030;
-}
-
-.social-icon2:hover {
+.social-icon:hover {
   color: #303030;
 }
