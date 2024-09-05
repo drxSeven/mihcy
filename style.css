@@ -1,37 +1,63 @@
-body {
+:root {
+  --background: #ffffff;
+  --foreground: #000000;
+  --nuetral: #303030;
+}
 
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: white;
-    text-align: center;
-    font-family: Helvetica, sans-serif;
-    font-size: xx-large;
-    font-style: normal;
-    font-weight: bold;
-      color: black;
- 
-  }
- 
+.dark-theme {
+  --background: #000000;
+  --foreground: #ffffff;
+}
+
+body {
+  overflow: hidden;
+  background: var(--background);
+}
+
+.container {
+  height: 94vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-size: xx-large;
+  font-style: normal;
+  font-weight: bold;
+  color: var(--foreground);
+}
+
+.dark-mode-icon {
+  display: flex;
+  justify-content: end;
+}
+
+.dark-mode-icon img {
+  height: 4vh;
+}
+
+.dark-mode-icon img:hover {
+  cursor: pointer;
+}
+
 p {
-  color: black;
+  color: var(--foreground);
   text-align: center;
 }
 
-a{
+a {
   font-style: italic;
-  color: black
+  color: var(--foreground);
 }
 
 .social-icon {
   font-size: 35px;
-  color: black;
+  color: var(--foreground);
   text-decoration: none;
   transition: color 0.2s;
   margin: 0 10px;
 }
 
 .social-icon:hover {
-  color: #303030;
+  color: var(--nuetral);
 }

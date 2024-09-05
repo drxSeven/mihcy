@@ -1,39 +1,65 @@
-body {
-
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: white;
-    text-align: center;
-    font-family: Helvetica, sans-serif;
-    font-size: x-large;
-    font-style: normal;
-    font-weight: normal;
-      color: black;
- 
-  }
- 
-p {
-  color: black;
+:root {
+  --background: #ffffff;
+  --foreground: #000000;
+  --nuetral: #303030;
 }
 
-a{
-  color: black;
+.dark-theme {
+  --background: #000000;
+  --foreground: #ffffff;
+}
+
+body {
+  overflow: hidden;
+  background: var(--background);
+}
+
+.container {
+  height: 94vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-size: xx-large;
+  font-style: normal;
+  color: var(--foreground);
+}
+
+.dark-mode-icon {
+  display: flex;
+  justify-content: end;
+}
+
+.dark-mode-icon img {
+  height: 3vh;
+}
+
+.dark-mode-icon img:hover {
+  cursor: pointer;
+}
+
+p {
+  color: var(--foreground);
+}
+
+a {
+  
+  color: var(--foreground);
 }
 
 .social-icon {
-    font-size: 25px;
-    color: black;
-    text-decoration: none;
-    transition: color 0.2s;
-    margin: 0 10px;
+  font-size: 25px;
+  color: var(--foreground);
+  text-decoration: none;
+  transition: color 0.2s;
+  margin: 0 10px;
 }
 
 .social-icon:hover {
-    color: #303030;
+  color: var(--nuetral);
 }
 
 .back {
-    color: black;
+  color: var(--foreground);
 }
